@@ -1,0 +1,23 @@
+环境：
+我这采用的是linux系统：Centos 6.4  64位版本
+python版本是2.6+
+ 
+
+
+安装bottle:
+yum install python-devel python-setuptools -y
+easy_install pip
+pip install bottle
+ 
+
+
+安装数据库：
+数据库采用mysql，因为这只提供学习，不按生产环境安装
+所以使用以下方法安装即可：
+yum install mysql-server -y
+service mysqld restart
+ 
+
+
+安装MySQL-pytho
+yum install -y MySQL-python
