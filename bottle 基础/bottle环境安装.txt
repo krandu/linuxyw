@@ -1,23 +1,23 @@
-»·¾³£º
-ÎÒÕâ²ÉÓÃµÄÊÇlinuxÏµÍ³£ºCentos 6.4  64Î»°æ±¾
-python°æ±¾ÊÇ2.6+
- 
+ç¯å¢ƒï¼š
+æˆ‘è¿™é‡‡ç”¨çš„æ˜¯linuxç³»ç»Ÿï¼šCentos 6.4  64ä½ç‰ˆæœ¬
+pythonç‰ˆæœ¬æ˜¯2.6+
 
 
-°²×°bottle:
+
+å®‰è£…bottle:
 yum install python-devel python-setuptools -y
 easy_install pip
 pip install bottle
- 
 
 
-°²×°Êı¾İ¿â£º
-Êı¾İ¿â²ÉÓÃmysql£¬ÒòÎªÕâÖ»Ìá¹©Ñ§Ï°£¬²»°´Éú²ú»·¾³°²×°
-ËùÒÔÊ¹ÓÃÒÔÏÂ·½·¨°²×°¼´¿É£º
+
+å®‰è£…æ•°æ®åº“ï¼š
+æ•°æ®åº“é‡‡ç”¨mysqlï¼Œå› ä¸ºè¿™åªæä¾›å­¦ä¹ ï¼Œä¸æŒ‰ç”Ÿäº§ç¯å¢ƒå®‰è£…
+æ‰€ä»¥ä½¿ç”¨ä»¥ä¸‹æ–¹æ³•å®‰è£…å³å¯ï¼š
 yum install mysql-server -y
 service mysqld restart
- 
 
 
-°²×°MySQL-pytho
+
+å®‰è£…MySQL-pytho
 yum install -y MySQL-python
