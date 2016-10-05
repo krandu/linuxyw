@@ -1,1 +1,1 @@
-�ǵð�task.sql����mysql���ݿ��У����޸�main.py���������ݿ�ķ�ʽ�����ʺ�����ȵ�
+记得把task.sql导到mysql数据库中，并修改main.py中连接数据库的方式，如帐号密码等等
